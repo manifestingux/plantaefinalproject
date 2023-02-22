@@ -1,0 +1,244 @@
+@media (max-width: 450px) {
+/* FONTS & STYLES */
+h1{
+font-family: 'Futura';
+font-size: 36px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;  
+}
+
+h2{
+font-family: 'Futura Md BT';
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+h3{
+font-family: 'Futura Md BT';
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+h4{
+font-family: 'Futura Md BT';
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+h5{
+font-family: 'Futura Bk BT';
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+h6{
+font-family: 'Futura Bk BT';
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+p{
+font-family: 'Futura Bk BT';
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.p2{
+font-family: 'Futura Bk BT';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
+ul{
+    list-style: none;
+}
+
+
+/* HEADER */
+header{
+    position:fixed;
+    background-color: #ffffff;
+    top: 0%;
+}
+.battery{
+    width: 100%;
+    background-color: #ffffff;
+    top:0%;
+}
+.topMenu{
+    flex-direction: row;
+}
+.menu{
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16px;
+}
+.navBar{
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 32px;
+    text-align: center;
+}
+
+
+/* MORE/CARE BUTTONS */
+.toggleButtons{
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.toggleButtons button{
+    width:160px;
+    height: 35px;
+    border-radius: 50px;
+}
+.active{
+    color:#ffffff;
+    background-color: #456955;
+    border: none;
+}
+.inactive{
+    color:#000000;
+    background-color: #D2E4DA;
+    border: none;
+}
+
+
+/* ABOUT TWISTER */
+.aboutTwister{
+margin: auto;
+margin-top: 215.59px;
+text-align: center;
+}
+#bgcolor{
+    background-color: #F7F7F7;
+    display: block;
+}
+.plantLatin{
+    text-align: center;
+}
+.twisterFacts{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+/* WATERING BUTTON */
+.waterButton{
+    border-radius: 50px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.buttonText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+
+/* HOW TO CARE FOR TWISTER */
+.care{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 357px;
+    background: #413B3E;
+    border-radius: 16px;
+    color:#FFFFFF;
+}
+.cardHeader{
+    text-align: center;
+    margin: auto;
+}
+.cardBody{
+margin-left: 46px;
+margin-right: 46px;
+}
+.cardTitle{
+display: inline-flex;
+align-items: center;
+gap: 16px;  
+}
+
+
+
+/* TIP */
+.tip{
+    border-radius: 16px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 2px;    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
