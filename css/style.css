@@ -1,4 +1,4 @@
-@media (max-width: 450px) {
+@media (max-width: 390px) {
 /* FONTS & STYLES */
 h1{
 font-family: 'Futura';
@@ -124,6 +124,35 @@ header{
     height: 35px;
     border-radius: 50px;
 }
+.pageTitle{
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+ 
+.plantCheck{
+    border-radius: 16px;
+    width: 358px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 8px 16px;
+    gap: 16px;    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
 .active{
     color:#ffffff;
     background-color: #456955;
@@ -230,15 +259,6 @@ gap: 16px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
